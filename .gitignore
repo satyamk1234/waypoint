@@ -1,0 +1,20 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.db
+.cache/
+reports/
+
+data/refresh.lock
+data/backups/
+
+# Local tooling and credentials
+.agents/
+.aws/
+.codex/
+*.db-wal
+*.db-shm
