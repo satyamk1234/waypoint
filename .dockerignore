@@ -1,0 +1,16 @@
+.env
+.env.*
+.venv
+.git
+.agents
+.aws
+.codex
+.cache
+**/__pycache__
+.pytest_cache
+*.db
+data/*.db
+reports
+
+data/backups
+data/refresh.lock

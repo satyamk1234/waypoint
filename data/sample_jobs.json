@@ -1,0 +1,512 @@
+[
+  {
+    "id": "sample-python-1",
+    "source": "sample",
+    "title": "Python Backend Intern",
+    "company": "Juniper Labs (Demo)",
+    "location": "India",
+    "remote": true,
+    "employment_type": "internship",
+    "description": "Build Python web APIs, design relational database queries, and write backend tests. This is a fictional posting created for testing; it is not an available job.",
+    "url": "https://example.com/jobs/python1",
+    "skills": [
+      "Python",
+      "FastAPI",
+      "SQL"
+    ],
+    "salary": "Not specified"
+  },
+  {
+    "id": "sample-python-2",
+    "source": "sample",
+    "title": "Python Backend Intern",
+    "company": "Orbit Works (Demo)",
+    "location": "Bengaluru, India",
+    "remote": false,
+    "employment_type": "internship",
+    "description": "Build Python web APIs, design relational database queries, and write backend tests. This is a fictional posting created for testing; it is not an available job.",
+    "url": "https://example.com/jobs/python2",
+    "skills": [
+      "Python",
+      "FastAPI",
+      "SQL"
+    ],
+    "salary": "Not specified"
+  },
+  {
+    "id": "sample-python-3",
+    "source": "sample",
+    "title": "Python Backend Intern",
+    "company": "Cedar Systems (Demo)",
+    "location": "United States",
+    "remote": true,
+    "employment_type": "internship",
+    "description": "Build Python web APIs, design relational database queries, and write backend tests. This is a fictional posting created for testing; it is not an available job.",
+    "url": "https://example.com/jobs/python3",
+    "skills": [
+      "Python",
+      "FastAPI",
+      "SQL"
+    ],
+    "salary": "Not specified"
+  },
+  {
+    "id": "sample-ml-1",
+    "source": "sample",
+    "title": "Machine Learning Engineer",
+    "company": "Juniper Labs (Demo)",
+    "location": "India",
+    "remote": true,
+    "employment_type": "full_time",
+    "description": "Train machine learning models, evaluate predictions, and deploy inference pipelines. This is a fictional posting created for testing; it is not an available job.",
+    "url": "https://example.com/jobs/ml1",
+    "skills": [
+      "Python",
+      "PyTorch",
+      "scikit-learn"
+    ],
+    "salary": "Not specified"
+  },
+  {
+    "id": "sample-ml-2",
+    "source": "sample",
+    "title": "Machine Learning Engineer",
+    "company": "Orbit Works (Demo)",
+    "location": "Bengaluru, India",
+    "remote": false,
+    "employment_type": "full_time",
+    "description": "Train machine learning models, evaluate predictions, and deploy inference pipelines. This is a fictional posting created for testing; it is not an available job.",
+    "url": "https://example.com/jobs/ml2",
+    "skills": [
+      "Python",
+      "PyTorch",
+      "scikit-learn"
+    ],
+    "salary": "Not specified"
+  },
+  {
+    "id": "sample-ml-3",
+    "source": "sample",
+    "title": "Machine Learning Engineer",
+    "company": "Cedar Systems (Demo)",
+    "location": "United States",
+    "remote": true,
+    "employment_type": "full_time",
+    "description": "Train machine learning models, evaluate predictions, and deploy inference pipelines. This is a fictional posting created for testing; it is not an available job.",
+    "url": "https://example.com/jobs/ml3",
+    "skills": [
+      "Python",
+      "PyTorch",
+      "scikit-learn"
+    ],
+    "salary": "Not specified"
+  },
+  {
+    "id": "sample-frontend-1",
+    "source": "sample",
+    "title": "Frontend React Developer",
+    "company": "Juniper Labs (Demo)",
+    "location": "India",
+    "remote": true,
+    "employment_type": "full_time",
+    "description": "Build accessible web interfaces and interactive components using React and TypeScript. This is a fictional posting created for testing; it is not an available job.",
+    "url": "https://example.com/jobs/frontend1",
+    "skills": [
+      "React",
+      "TypeScript",
+      "CSS"
+    ],
+    "salary": "Not specified"
+  },
+  {
+    "id": "sample-frontend-2",
+    "source": "sample",
+    "title": "Frontend React Developer",
+    "company": "Orbit Works (Demo)",
+    "location": "Bengaluru, India",
+    "remote": false,
+    "employment_type": "full_time",
+    "description": "Build accessible web interfaces and interactive components using React and TypeScript. This is a fictional posting created for testing; it is not an available job.",
+    "url": "https://example.com/jobs/frontend2",
+    "skills": [
+      "React",
+      "TypeScript",
+      "CSS"
+    ],
+    "salary": "Not specified"
+  },
+  {
+    "id": "sample-frontend-3",
+    "source": "sample",
+    "title": "Frontend React Developer",
+    "company": "Cedar Systems (Demo)",
+    "location": "United States",
+    "remote": true,
+    "employment_type": "full_time",
+    "description": "Build accessible web interfaces and interactive components using React and TypeScript. This is a fictional posting created for testing; it is not an available job.",
+    "url": "https://example.com/jobs/frontend3",
+    "skills": [
+      "React",
+      "TypeScript",
+      "CSS"
+    ],
+    "salary": "Not specified"
+  },
+  {
+    "id": "sample-analyst-1",
+    "source": "sample",
+    "title": "Data Analyst",
+    "company": "Juniper Labs (Demo)",
+    "location": "India",
+    "remote": true,
+    "employment_type": "full_time",
+    "description": "Analyze business data, build dashboards, and communicate insights using SQL and statistics. This is a fictional posting created for testing; it is not an available job.",
+    "url": "https://example.com/jobs/analyst1",
+    "skills": [
+      "SQL",
+      "Python",
+      "Tableau"
+    ],
+    "salary": "Not specified"
+  },
+  {
+    "id": "sample-analyst-2",
+    "source": "sample",
+    "title": "Data Analyst",
+    "company": "Orbit Works (Demo)",
+    "location": "Bengaluru, India",
+    "remote": false,
+    "employment_type": "full_time",
+    "description": "Analyze business data, build dashboards, and communicate insights using SQL and statistics. This is a fictional posting created for testing; it is not an available job.",
+    "url": "https://example.com/jobs/analyst2",
+    "skills": [
+      "SQL",
+      "Python",
+      "Tableau"
+    ],
+    "salary": "Not specified"
+  },
+  {
+    "id": "sample-analyst-3",
+    "source": "sample",
+    "title": "Data Analyst",
+    "company": "Cedar Systems (Demo)",
+    "location": "United States",
+    "remote": true,
+    "employment_type": "full_time",
+    "description": "Analyze business data, build dashboards, and communicate insights using SQL and statistics. This is a fictional posting created for testing; it is not an available job.",
+    "url": "https://example.com/jobs/analyst3",
+    "skills": [
+      "SQL",
+      "Python",
+      "Tableau"
+    ],
+    "salary": "Not specified"
+  },
+  {
+    "id": "sample-devops-1",
+    "source": "sample",
+    "title": "DevOps Engineer",
+    "company": "Juniper Labs (Demo)",
+    "location": "India",
+    "remote": true,
+    "employment_type": "full_time",
+    "description": "Automate cloud infrastructure, container deployments, CI/CD, and monitoring. This is a fictional posting created for testing; it is not an available job.",
+    "url": "https://example.com/jobs/devops1",
+    "skills": [
+      "Docker",
+      "Kubernetes",
+      "AWS"
+    ],
+    "salary": "Not specified"
+  },
+  {
+    "id": "sample-devops-2",
+    "source": "sample",
+    "title": "DevOps Engineer",
+    "company": "Orbit Works (Demo)",
+    "location": "Bengaluru, India",
+    "remote": false,
+    "employment_type": "full_time",
+    "description": "Automate cloud infrastructure, container deployments, CI/CD, and monitoring. This is a fictional posting created for testing; it is not an available job.",
+    "url": "https://example.com/jobs/devops2",
+    "skills": [
+      "Docker",
+      "Kubernetes",
+      "AWS"
+    ],
+    "salary": "Not specified"
+  },
+  {
+    "id": "sample-devops-3",
+    "source": "sample",
+    "title": "DevOps Engineer",
+    "company": "Cedar Systems (Demo)",
+    "location": "United States",
+    "remote": true,
+    "employment_type": "full_time",
+    "description": "Automate cloud infrastructure, container deployments, CI/CD, and monitoring. This is a fictional posting created for testing; it is not an available job.",
+    "url": "https://example.com/jobs/devops3",
+    "skills": [
+      "Docker",
+      "Kubernetes",
+      "AWS"
+    ],
+    "salary": "Not specified"
+  },
+  {
+    "id": "sample-nlp-1",
+    "source": "sample",
+    "title": "NLP Research Intern",
+    "company": "Juniper Labs (Demo)",
+    "location": "India",
+    "remote": true,
+    "employment_type": "internship",
+    "description": "Experiment with language models, text embeddings, semantic search, and NLP evaluation. This is a fictional posting created for testing; it is not an available job.",
+    "url": "https://example.com/jobs/nlp1",
+    "skills": [
+      "Python",
+      "Transformers",
+      "PyTorch"
+    ],
+    "salary": "Not specified"
+  },
+  {
+    "id": "sample-nlp-2",
+    "source": "sample",
+    "title": "NLP Research Intern",
+    "company": "Orbit Works (Demo)",
+    "location": "Bengaluru, India",
+    "remote": false,
+    "employment_type": "internship",
+    "description": "Experiment with language models, text embeddings, semantic search, and NLP evaluation. This is a fictional posting created for testing; it is not an available job.",
+    "url": "https://example.com/jobs/nlp2",
+    "skills": [
+      "Python",
+      "Transformers",
+      "PyTorch"
+    ],
+    "salary": "Not specified"
+  },
+  {
+    "id": "sample-nlp-3",
+    "source": "sample",
+    "title": "NLP Research Intern",
+    "company": "Cedar Systems (Demo)",
+    "location": "United States",
+    "remote": true,
+    "employment_type": "internship",
+    "description": "Experiment with language models, text embeddings, semantic search, and NLP evaluation. This is a fictional posting created for testing; it is not an available job.",
+    "url": "https://example.com/jobs/nlp3",
+    "skills": [
+      "Python",
+      "Transformers",
+      "PyTorch"
+    ],
+    "salary": "Not specified"
+  },
+  {
+    "id": "sample-mobile-1",
+    "source": "sample",
+    "title": "Mobile App Developer",
+    "company": "Juniper Labs (Demo)",
+    "location": "India",
+    "remote": true,
+    "employment_type": "full_time",
+    "description": "Develop cross-platform mobile applications for Android and iOS with Flutter. This is a fictional posting created for testing; it is not an available job.",
+    "url": "https://example.com/jobs/mobile1",
+    "skills": [
+      "Flutter",
+      "Dart",
+      "Android"
+    ],
+    "salary": "Not specified"
+  },
+  {
+    "id": "sample-mobile-2",
+    "source": "sample",
+    "title": "Mobile App Developer",
+    "company": "Orbit Works (Demo)",
+    "location": "Bengaluru, India",
+    "remote": false,
+    "employment_type": "full_time",
+    "description": "Develop cross-platform mobile applications for Android and iOS with Flutter. This is a fictional posting created for testing; it is not an available job.",
+    "url": "https://example.com/jobs/mobile2",
+    "skills": [
+      "Flutter",
+      "Dart",
+      "Android"
+    ],
+    "salary": "Not specified"
+  },
+  {
+    "id": "sample-mobile-3",
+    "source": "sample",
+    "title": "Mobile App Developer",
+    "company": "Cedar Systems (Demo)",
+    "location": "United States",
+    "remote": true,
+    "employment_type": "full_time",
+    "description": "Develop cross-platform mobile applications for Android and iOS with Flutter. This is a fictional posting created for testing; it is not an available job.",
+    "url": "https://example.com/jobs/mobile3",
+    "skills": [
+      "Flutter",
+      "Dart",
+      "Android"
+    ],
+    "salary": "Not specified"
+  },
+  {
+    "id": "sample-design-1",
+    "source": "sample",
+    "title": "Product Designer",
+    "company": "Juniper Labs (Demo)",
+    "location": "India",
+    "remote": true,
+    "employment_type": "full_time",
+    "description": "Research user needs, prototype interfaces, and improve product usability and visual design. This is a fictional posting created for testing; it is not an available job.",
+    "url": "https://example.com/jobs/design1",
+    "skills": [
+      "Figma",
+      "UX",
+      "Design"
+    ],
+    "salary": "Not specified"
+  },
+  {
+    "id": "sample-design-2",
+    "source": "sample",
+    "title": "Product Designer",
+    "company": "Orbit Works (Demo)",
+    "location": "Bengaluru, India",
+    "remote": false,
+    "employment_type": "full_time",
+    "description": "Research user needs, prototype interfaces, and improve product usability and visual design. This is a fictional posting created for testing; it is not an available job.",
+    "url": "https://example.com/jobs/design2",
+    "skills": [
+      "Figma",
+      "UX",
+      "Design"
+    ],
+    "salary": "Not specified"
+  },
+  {
+    "id": "sample-design-3",
+    "source": "sample",
+    "title": "Product Designer",
+    "company": "Cedar Systems (Demo)",
+    "location": "United States",
+    "remote": true,
+    "employment_type": "full_time",
+    "description": "Research user needs, prototype interfaces, and improve product usability and visual design. This is a fictional posting created for testing; it is not an available job.",
+    "url": "https://example.com/jobs/design3",
+    "skills": [
+      "Figma",
+      "UX",
+      "Design"
+    ],
+    "salary": "Not specified"
+  },
+  {
+    "id": "sample-data-1",
+    "source": "sample",
+    "title": "Data Engineer",
+    "company": "Juniper Labs (Demo)",
+    "location": "India",
+    "remote": true,
+    "employment_type": "full_time",
+    "description": "Build ETL pipelines, data warehouses, batch processing, and reliable data ingestion. This is a fictional posting created for testing; it is not an available job.",
+    "url": "https://example.com/jobs/data1",
+    "skills": [
+      "Python",
+      "SQL",
+      "Spark"
+    ],
+    "salary": "Not specified"
+  },
+  {
+    "id": "sample-data-2",
+    "source": "sample",
+    "title": "Data Engineer",
+    "company": "Orbit Works (Demo)",
+    "location": "Bengaluru, India",
+    "remote": false,
+    "employment_type": "full_time",
+    "description": "Build ETL pipelines, data warehouses, batch processing, and reliable data ingestion. This is a fictional posting created for testing; it is not an available job.",
+    "url": "https://example.com/jobs/data2",
+    "skills": [
+      "Python",
+      "SQL",
+      "Spark"
+    ],
+    "salary": "Not specified"
+  },
+  {
+    "id": "sample-data-3",
+    "source": "sample",
+    "title": "Data Engineer",
+    "company": "Cedar Systems (Demo)",
+    "location": "United States",
+    "remote": true,
+    "employment_type": "full_time",
+    "description": "Build ETL pipelines, data warehouses, batch processing, and reliable data ingestion. This is a fictional posting created for testing; it is not an available job.",
+    "url": "https://example.com/jobs/data3",
+    "skills": [
+      "Python",
+      "SQL",
+      "Spark"
+    ],
+    "salary": "Not specified"
+  },
+  {
+    "id": "sample-security-1",
+    "source": "sample",
+    "title": "Security Analyst",
+    "company": "Juniper Labs (Demo)",
+    "location": "India",
+    "remote": true,
+    "employment_type": "full_time",
+    "description": "Investigate security incidents, analyze threats, and improve vulnerability detection. This is a fictional posting created for testing; it is not an available job.",
+    "url": "https://example.com/jobs/security1",
+    "skills": [
+      "Linux",
+      "SIEM",
+      "Security"
+    ],
+    "salary": "Not specified"
+  },
+  {
+    "id": "sample-security-2",
+    "source": "sample",
+    "title": "Security Analyst",
+    "company": "Orbit Works (Demo)",
+    "location": "Bengaluru, India",
+    "remote": false,
+    "employment_type": "full_time",
+    "description": "Investigate security incidents, analyze threats, and improve vulnerability detection. This is a fictional posting created for testing; it is not an available job.",
+    "url": "https://example.com/jobs/security2",
+    "skills": [
+      "Linux",
+      "SIEM",
+      "Security"
+    ],
+    "salary": "Not specified"
+  },
+  {
+    "id": "sample-security-3",
+    "source": "sample",
+    "title": "Security Analyst",
+    "company": "Cedar Systems (Demo)",
+    "location": "United States",
+    "remote": true,
+    "employment_type": "full_time",
+    "description": "Investigate security incidents, analyze threats, and improve vulnerability detection. This is a fictional posting created for testing; it is not an available job.",
+    "url": "https://example.com/jobs/security3",
+    "skills": [
+      "Linux",
+      "SIEM",
+      "Security"
+    ],
+    "salary": "Not specified"
+  }
+]

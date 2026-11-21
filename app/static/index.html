@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Waypoint · Find your next role</title><link rel="stylesheet" href="/static/style.css"><script src="/static/app.js" defer></script></head>
+<body>
+<aside class="sidebar">
+  <a class="brand" href="/" aria-label="Waypoint home"><span class="brand-icon">w.</span> waypoint</a>
+  <div class="workspace">YOUR WORKSPACE</div>
+  <div class="nav-item active"><span>⌕</span> Discover roles</div>
+  <section class="preferences">
+    <div class="section-heading"><h2>Your preferences</h2><span class="saved" id="saved-status">Saved locally</span></div>
+    <p class="muted">A little context makes a better match.</p>
+    <form id="preferences-form">
+      <label>Target role<input name="role" placeholder="e.g. Python developer" maxlength="150"></label>
+      <label>Country eligibility<input name="country" placeholder="e.g. India or IN" maxlength="100"></label>
+      <label>Listed location (optional)<input name="location" placeholder="e.g. Bengaluru" maxlength="150"></label>
+      <label>Work arrangement<select name="remote"><option value="">Any arrangement</option><option value="true">Remote</option><option value="false">On-site</option></select></label>
+      <label>Employment type<select name="employment_type"><option value="">Any type</option><option value="internship">Internship</option><option value="full_time">Full-time</option><option value="part_time">Part-time</option><option value="contract">Contract</option></select></label>
+      <label>Your skills<input name="skills" placeholder="Python, SQL, FastAPI"></label>
+      <label class="checkbox-label"><input type="checkbox" name="real_only" checked> Real jobs only</label>
+      <button class="secondary" type="submit">Save preferences</button>
+    </form>
+  </section>
+  <div class="sidebar-footer"><span class="avatar">Y</span><div><strong>Your workspace</strong><small>Private browser session</small></div><button id="reset" class="icon-button" title="Delete this session and its saved data" aria-label="Reset session">↺</button></div>
+</aside>
+<main>
+  <header><span class="breadcrumb">Your next chapter starts here</span><a href="/docs" target="_blank" rel="noopener">API docs</a></header>
+  <section class="hero"><div class="eyebrow">A MORE PERSONAL JOB SEARCH</div><h1>Good work.<br><span>Better matches.</span></h1><p>Discover roles that fit your skills, your ambitions,<br class="desktop"> and the way you want to work.</p></section>
+  <section class="search-section" aria-label="Job search">
+    <form id="search-form" class="search-box"><span aria-hidden="true">⌕</span><input id="query" aria-label="Describe the job you want" placeholder="What would you like to work on?" required maxlength="1000"><button type="submit" class="primary">Find my matches</button></form>
+    <div class="suggestions"><span>TRY A SEARCH</span><button data-query="Python backend internship">Python internships</button><button data-query="Machine learning engineer">Machine learning</button><button data-query="Frontend React developer">Frontend development</button></div>
+  </section>
+  <p id="refresh-status" class="refresh-status" role="status">Checking job freshness…</p>
+  <div id="notice" role="status" aria-live="polite" hidden></div>
+  <section class="results-section"><div class="results-header"><div><h2 id="results-title">Explore the possibilities</h2><p id="results-subtitle">Tell us what you’re looking for to get started.</p></div><span class="count" id="job-count">Loading index…</span></div><div id="results" class="job-grid"><div class="empty-state"><div class="empty-icon">✳</div><h3>Your next opportunity is out there.</h3><p>Search by role, technology, or the work you enjoy.<br>We’ll help connect the dots.</p></div></div></section>
+  <footer>Built for thoughtful career moves.<span>Waypoint / Job Matching Agent</span></footer>
+</main>
+<aside class="chat-panel">
+  <div class="chat-header"><div class="spark">✳</div><div><h2>Your career copilot</h2><span id="chat-status">Checking Groq connection…</span></div></div>
+  <div id="messages" class="messages" role="log" aria-live="polite"><div class="bubble assistant"><strong>Let’s find your fit.</strong><p>Tell me about the kind of role you want. I can search jobs, remember your preferences, and explain the matches.</p></div></div>
+  <div class="chat-help" id="chat-help">Preferences stay with this browser session.</div>
+  <form id="chat-form"><label class="sr-only" for="chat-input">Message your career copilot</label><textarea id="chat-input" placeholder="I’m looking for a remote Python internship…" rows="3" maxlength="3000" required></textarea><div class="composer-footer"><span>Powered by Groq</span><button class="primary" type="submit" id="send">Send</button></div></form>
+</aside>
+<dialog id="details"><button id="close-details" class="icon-button" aria-label="Close job details">×</button><div id="details-content"></div></dialog>
+</body></html>

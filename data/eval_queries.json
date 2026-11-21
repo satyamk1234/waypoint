@@ -1,0 +1,242 @@
+[
+  {
+    "query": "Python backend internship",
+    "relevance": {
+      "sample-python-1": 2,
+      "sample-python-2": 2,
+      "sample-python-3": 2
+    }
+  },
+  {
+    "query": "FastAPI API developer",
+    "relevance": {
+      "sample-python-1": 2,
+      "sample-python-2": 2,
+      "sample-python-3": 2
+    }
+  },
+  {
+    "query": "relational database web backend",
+    "relevance": {
+      "sample-python-1": 2,
+      "sample-python-2": 2,
+      "sample-python-3": 2
+    }
+  },
+  {
+    "query": "machine learning model training",
+    "relevance": {
+      "sample-ml-1": 2,
+      "sample-ml-2": 2,
+      "sample-ml-3": 2
+    }
+  },
+  {
+    "query": "PyTorch prediction engineer",
+    "relevance": {
+      "sample-ml-1": 2,
+      "sample-ml-2": 2,
+      "sample-ml-3": 2
+    }
+  },
+  {
+    "query": "scikit-learn inference pipelines",
+    "relevance": {
+      "sample-ml-1": 2,
+      "sample-ml-2": 2,
+      "sample-ml-3": 2
+    }
+  },
+  {
+    "query": "React frontend developer",
+    "relevance": {
+      "sample-frontend-1": 2,
+      "sample-frontend-2": 2,
+      "sample-frontend-3": 2
+    }
+  },
+  {
+    "query": "TypeScript UI components",
+    "relevance": {
+      "sample-frontend-1": 2,
+      "sample-frontend-2": 2,
+      "sample-frontend-3": 2
+    }
+  },
+  {
+    "query": "accessible web interfaces CSS",
+    "relevance": {
+      "sample-frontend-1": 2,
+      "sample-frontend-2": 2,
+      "sample-frontend-3": 2
+    }
+  },
+  {
+    "query": "SQL business data analyst",
+    "relevance": {
+      "sample-analyst-1": 2,
+      "sample-analyst-2": 2,
+      "sample-analyst-3": 2
+    }
+  },
+  {
+    "query": "Tableau dashboard insights",
+    "relevance": {
+      "sample-analyst-1": 2,
+      "sample-analyst-2": 2,
+      "sample-analyst-3": 2
+    }
+  },
+  {
+    "query": "statistics business analysis",
+    "relevance": {
+      "sample-analyst-1": 2,
+      "sample-analyst-2": 2,
+      "sample-analyst-3": 2
+    }
+  },
+  {
+    "query": "Docker Kubernetes infrastructure",
+    "relevance": {
+      "sample-devops-1": 2,
+      "sample-devops-2": 2,
+      "sample-devops-3": 2
+    }
+  },
+  {
+    "query": "AWS deployment automation",
+    "relevance": {
+      "sample-devops-1": 2,
+      "sample-devops-2": 2,
+      "sample-devops-3": 2
+    }
+  },
+  {
+    "query": "CI/CD cloud monitoring",
+    "relevance": {
+      "sample-devops-1": 2,
+      "sample-devops-2": 2,
+      "sample-devops-3": 2
+    }
+  },
+  {
+    "query": "NLP research internship",
+    "relevance": {
+      "sample-nlp-1": 2,
+      "sample-nlp-2": 2,
+      "sample-nlp-3": 2
+    }
+  },
+  {
+    "query": "language models semantic embeddings",
+    "relevance": {
+      "sample-nlp-1": 2,
+      "sample-nlp-2": 2,
+      "sample-nlp-3": 2
+    }
+  },
+  {
+    "query": "Transformers text evaluation",
+    "relevance": {
+      "sample-nlp-1": 2,
+      "sample-nlp-2": 2,
+      "sample-nlp-3": 2
+    }
+  },
+  {
+    "query": "Flutter mobile developer",
+    "relevance": {
+      "sample-mobile-1": 2,
+      "sample-mobile-2": 2,
+      "sample-mobile-3": 2
+    }
+  },
+  {
+    "query": "Dart Android application",
+    "relevance": {
+      "sample-mobile-1": 2,
+      "sample-mobile-2": 2,
+      "sample-mobile-3": 2
+    }
+  },
+  {
+    "query": "cross-platform iOS apps",
+    "relevance": {
+      "sample-mobile-1": 2,
+      "sample-mobile-2": 2,
+      "sample-mobile-3": 2
+    }
+  },
+  {
+    "query": "Figma product designer",
+    "relevance": {
+      "sample-design-1": 2,
+      "sample-design-2": 2,
+      "sample-design-3": 2
+    }
+  },
+  {
+    "query": "UX usability research",
+    "relevance": {
+      "sample-design-1": 2,
+      "sample-design-2": 2,
+      "sample-design-3": 2
+    }
+  },
+  {
+    "query": "visual design prototypes",
+    "relevance": {
+      "sample-design-1": 2,
+      "sample-design-2": 2,
+      "sample-design-3": 2
+    }
+  },
+  {
+    "query": "Spark data engineering",
+    "relevance": {
+      "sample-data-1": 2,
+      "sample-data-2": 2,
+      "sample-data-3": 2
+    }
+  },
+  {
+    "query": "ETL warehouse pipelines",
+    "relevance": {
+      "sample-data-1": 2,
+      "sample-data-2": 2,
+      "sample-data-3": 2
+    }
+  },
+  {
+    "query": "batch data ingestion",
+    "relevance": {
+      "sample-data-1": 2,
+      "sample-data-2": 2,
+      "sample-data-3": 2
+    }
+  },
+  {
+    "query": "SIEM security analyst",
+    "relevance": {
+      "sample-security-1": 2,
+      "sample-security-2": 2,
+      "sample-security-3": 2
+    }
+  },
+  {
+    "query": "Linux threat investigation",
+    "relevance": {
+      "sample-security-1": 2,
+      "sample-security-2": 2,
+      "sample-security-3": 2
+    }
+  },
+  {
+    "query": "vulnerability incident detection",
+    "relevance": {
+      "sample-security-1": 2,
+      "sample-security-2": 2,
+      "sample-security-3": 2
+    }
+  }
+]
